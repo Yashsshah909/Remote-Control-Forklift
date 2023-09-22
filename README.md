@@ -5,7 +5,7 @@ The company is a part of Toyota Material Handling family and makes electric fork
 
 For this project I developed a Python script which consisted an integration of a GUI(tkinter) and CAN library to send and receive CAN messages to and fro remote controller and a receiver (endpoint controller) on the truck using Bluetooth/ISM. The remote is capable of moving the truck in both direction, steering, lifting/dropping the forks, horn and many other truck specific functions. 
 
-The code works on both windows and linux devices. We had a windows NUC and a raspberry pi attached to the truck and also powered by it. The code is designed to run on boot and hence there are no additional steps to get this system running when we key-on the truck. To run this code on a linux device, refer to python script - 'FRED_pi.py', 'launcher.sh' and 'how to run on boot.txt'
+The code works on both windows and linux devices. We had a windows NUC and a raspberry pi attached to the truck and also powered by it. The code is designed to run on boot and hence there are no additional steps to get this system running when we key-on the truck. For windows, refer to 'FRED.py'. For a linux device, refer to python script - 'FRED_pi.py', 'launcher.sh' and 'how to run on boot.txt'
 
 The following links are the devices being used for this project. 
 [Fort Robotics Remote](https://www.fortrobotics.com/wireless-industrial-remote-control)
